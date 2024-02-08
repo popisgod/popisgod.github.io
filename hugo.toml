@@ -16,7 +16,7 @@ style = "github-dark"
   info = "Cyber Security Student"
   description = "Ron Glozman's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "https://avatars.githubusercontent.com/u/93617974?v=4"
+  avatarurl = "static/images/avatar.png"
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
@@ -26,7 +26,7 @@ style = "github-dark"
 
   enableTwemoji = true
 
-  colorScheme = "White"
+  colorScheme = "auto"
   hidecolorschemetoggle = false
 
   # customCSS = ["css/custom.css"]
