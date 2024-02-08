@@ -3,6 +3,7 @@ title = "popisgod"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
+TableOfContents = true
 
 paginate = 20
 
