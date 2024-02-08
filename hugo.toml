@@ -16,7 +16,7 @@ style = "github-dark"
   info = "Cyber Security Student"
   description = "Ron Glozman's personal website"
   keywords = "blog,developer,personal"
-  avatarurl = "static/images/avatar.png"
+  avatarurl = "images/avatar.png"
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/img/favicon-32x32.png"
