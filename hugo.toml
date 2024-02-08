@@ -1,0 +1,71 @@
+baseurl = "http://popisgod.github.io"
+title = "popisgod"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Ron Glozman"
+  info = "Cyber Security Student"
+  description = "Ron Glozman's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "https://avatars.githubusercontent.com/u/93617974?v=4"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "White"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/popisgod/"
+[[params.social]]
+  name = "twitter"
+  icon = "fa-brands fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/GlozmanRon/"
+[[params.social]]
+name = "linkedin"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 3
+url = "https://www.linkedin.com/in/ron-glozman-41724322b/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 3
+  url = "about/"
+  [[menu.main]]
+  name = "Projects"
+  weight = 1
+  url = "projects/"
