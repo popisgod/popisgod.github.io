@@ -6,6 +6,12 @@ tags = [
     "pwn", 
     "pwnable.co.il"
 ]
+categories = [
+    "pwn" ,
+    "pwnable.co.il"
+]
+authors = ["popisgod",
+            "Ron"]
 series = ["pwnable.co.il"]
 +++
 
