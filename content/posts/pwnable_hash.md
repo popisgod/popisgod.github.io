@@ -3,8 +3,8 @@ title = "hash challenge writeup"
 date = "2024-02-10"
 description = "A writeup to the hash challenge from pwnable.co.il"
 tags = [
-    "pwn ", 
-    "pwnable.co.il "
+    " pwn ", 
+    " pwnable.co.il "
 ]
 
 series = ["pwnable.co.il"]
