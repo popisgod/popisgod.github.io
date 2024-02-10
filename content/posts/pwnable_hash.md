@@ -52,9 +52,9 @@ if (!strcmp(flag_hash, guess_hash)) {
 return 1;
 ```
 
-We can immediately see a logical error in the code: the `strcmp` function was used even though the hashes are not strings. The `strcmp` function compares until there's a NULL byte, `00` . This means that if there's a `00` byte in the hash of the flag, the function will return earlier than it should, and it will only check if they're both equal up to that point.
+We can immediately see a logical error in the code, the `strcmp` function was used even though the hashes are not strings. The `strcmp` function compares until there's a NULL byte, `00` . This means that if there's a `00` byte in the hash of the flag, the function will return earlier than it should, and it will only check if they're both equal up to that point.
 
-Now going back to the printed hash `537500469ddfc5b29e9379cdcc2f3c86`, we see the third byte is `00` . It means that the hashes will only be compared up to the third byte and that the hashes only need to be equal in the first two bytes for the function to return equal.
+Now going back to the printed hash `537500469ddfc5b29e9379cdcc2f3c86`, we can see the third byte is `00` . It means that the hashes will only be compared up to the third byte and that the hashes only need to be equal in the first three bytes for the function to return equal.
 
 Using this newly acquired information on the program, I've created a Python script that brute-forces a 'collision' and creates a hash with the prefix `537500` , equal to the flag hash.
 
