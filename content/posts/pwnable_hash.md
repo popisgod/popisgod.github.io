@@ -6,7 +6,6 @@ tags = [
     "pwn", 
     "pwnable.co.il"
 ]
-
 series = ["pwnable.co.il"]
 +++
 
