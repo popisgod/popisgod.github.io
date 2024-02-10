@@ -7,7 +7,7 @@ TableOfContents = true
 
 paginate = 20
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "popisgod-github-io"
 
 [markup.goldmark.renderer]
 unsafe= true
