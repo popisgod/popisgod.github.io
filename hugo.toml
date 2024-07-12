@@ -1,5 +1,5 @@
 baseurl = "http://popisgod.github.io"
-title = "glozir"
+title = "popisgod"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
